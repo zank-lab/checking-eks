@@ -51,7 +51,7 @@ echo "**************************"
 
 # Create the VPC CNI Addon
 
-    aws eks create-addon --addon-name vpc-cni --cluster-name eks-acg
+#    aws eks create-addon --addon-name vpc-cni --cluster-name eks-acg
 
 echo "*************************************************************"
 echo "********* READY TO CHAPTER 3! - FINISHED AT $(date) *********"

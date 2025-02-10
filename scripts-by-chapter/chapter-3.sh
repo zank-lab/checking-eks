@@ -48,7 +48,7 @@ echo "--- This could take around 10 minutes"
     wait
 
 # Upgrading the applications
-(cd ./resource-api/infra/helm-v2 && create.sh)
+(cd ./resource-api/infra/helm-v2 && ./create.sh)
 (cd ./clients-api/infra/helm-v2 && ./create.sh)
 (cd ./inventory-api/infra/helm-v2 && ./create.sh)
 (cd ./renting-api/infra/helm-v2 && ./create.sh)
